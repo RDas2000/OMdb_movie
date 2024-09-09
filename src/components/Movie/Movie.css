@@ -222,12 +222,12 @@ hr{
 .poster-image{
 
     height: 53vh;
-    transition: 0.5s;
+    transition: 0.5s; 
 }
 .poster-image:hover{
     overflow-x: hidden;
-    transform: scale(1.05);
-    z-index: 2;
+     transform: scale(1.05); 
+    z-index: 0;
     
 }
 @media (max-width: 900px){
@@ -569,10 +569,10 @@ hr{
     transition: 0.5s;
 }
 .poster-movie:hover{
-    transform: scale(1.09);
+    /* transform: scale(1.09); */
 }
 .poster-movie:active{
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
 }
 
 @media (max-width: 600px){
@@ -647,16 +647,21 @@ hr{
         width: 20vw;
         margin: 0;
         padding: 0;
-        transition: 0.5s;
+        /* transition: 0.5s; */
     }
     .poster-movie:hover{
-        transform: scale(1.09);
+        /* transform: scale(1.09); */
     }
     .poster-movie:active{
-        transform: scale(1.05);
+        /* transform: scale(1.05); */
     }
-    /* -----------secondChild======= */
+
+}
+/* -----------secondChild======= */
 @media (max-width: 600px){
+    .sc-bg{
+        width: 90%;
+    }
     .sc-total-div{
         border: 0px solid red;
         margin: 10;
@@ -687,8 +692,5 @@ hr{
         margin-top: 0px;
         padding: 0px;
     }
-
-}
-
 
 }
