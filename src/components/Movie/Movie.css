@@ -222,12 +222,12 @@ hr{
 .poster-image{
 
     height: 53vh;
-    transition: 0.5s;
+    transition: 0.5s; 
 }
 .poster-image:hover{
     overflow-x: hidden;
-    transform: scale(1.05);
-    z-index: 2;
+     transform: scale(1.05); 
+    z-index: 0;
     
 }
 @media (max-width: 900px){
@@ -569,10 +569,10 @@ hr{
     transition: 0.5s;
 }
 .poster-movie:hover{
-    transform: scale(1.09);
+    /* transform: scale(1.09); */
 }
 .poster-movie:active{
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
 }
 
 @media (max-width: 600px){
@@ -647,13 +647,50 @@ hr{
         width: 20vw;
         margin: 0;
         padding: 0;
-        transition: 0.5s;
+        /* transition: 0.5s; */
     }
     .poster-movie:hover{
-        transform: scale(1.09);
+        /* transform: scale(1.09); */
     }
     .poster-movie:active{
-        transform: scale(1.05);
+        /* transform: scale(1.05); */
+    }
+
+}
+/* -----------secondChild======= */
+@media (max-width: 600px){
+    .sc-bg{
+        width: 90%;
+    }
+    .sc-total-div{
+        border: 0px solid red;
+        margin: 10;
+        padding: 0;
+        gap: 0;
+        height: 25vh;
+        width:45vh;
+    }
+    .sc-image{
+        height:30vh;
+        width: 30vw;
+        margin: 0;
+    }
+    .sc-text-moviename{
+        border:0px solid white;
+        font-size:1.2vh;
+        margin-left: 10px;
+        width: 100%;
+        height: 15px;
+    }
+    .sc-text{
+        border:0px solid white;
+        width: 10vh;
+        height: 15px;
+        font-size: 1.2vh;
+        margin: 0px;
+        margin-left: 10px;
+        margin-top: 0px;
+        padding: 0px;
     }
 
 }
